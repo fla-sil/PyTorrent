@@ -1,0 +1,3838 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "access": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "updated": {
+      "type": "string"
+    },
+    "detail": {
+      "type": "object",
+      "properties": {
+        "meta": {
+          "type": "object",
+          "properties": {
+            "license": {
+              "type": "string"
+            },
+            "license_url": {
+              "type": "string"
+            },
+            "home": {
+              "type": "string"
+            },
+            "home_url": {
+              "type": "string"
+            },
+            "documentation": {
+              "type": "string"
+            },
+            "documentation_url": {
+              "type": "string"
+            },
+            "development": {
+              "type": "string"
+            },
+            "development_url": {
+              "type": "string"
+            },
+            "download_count": {
+              "type": "integer"
+            },
+            "last_upload": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "license",
+            "license_url",
+            "home",
+            "home_url",
+            "documentation",
+            "documentation_url",
+            "development",
+            "development_url",
+            "download_count",
+            "last_upload"
+          ]
+        },
+        "installers": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "note": {
+          "type": "string"
+        },
+        "platform_versions": {
+          "type": "array",
+          "items": [
+            {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          ]
+        },
+        "description": {
+          "type": "string"
+        },
+        "files": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "href"
+                  ]
+                },
+                "uploaded": {
+                  "type": "null"
+                },
+                "uploader": {
+                  "type": "string"
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "labels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "label"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "size",
+                "file",
+                "uploaded",
+                "uploader",
+                "downloads",
+                "labels"
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "label"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "label"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "label"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "label"
+              ]
+            }
+          ]
+        },
+        "badges": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "required": [
+        "meta",
+        "installers",
+        "note",
+        "platform_versions",
+        "description",
+        "files",
+        "labels",
+        "badges"
+      ]
+    }
+  },
+  "required": [
+    "title",
+    "access",
+    "summary",
+    "updated",
+    "detail"
+  ]
+}
