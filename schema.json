@@ -1,0 +1,352 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "info": {
+      "type": "object",
+      "properties": {
+        "author": {
+          "type": "string"
+        },
+        "author_email": {
+          "type": "string"
+        },
+        "bugtrack_url": {
+          "type": "null"
+        },
+        "classifiers": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "description": {
+          "type": "string"
+        },
+        "description_content_type": {
+          "type": "string"
+        },
+        "docs_url": {
+          "type": "null"
+        },
+        "download_url": {
+          "type": "string"
+        },
+        "downloads": {
+          "type": "object",
+          "properties": {
+            "last_day": {
+              "type": "integer"
+            },
+            "last_month": {
+              "type": "integer"
+            },
+            "last_week": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "last_day",
+            "last_month",
+            "last_week"
+          ]
+        },
+        "home_page": {
+          "type": "string"
+        },
+        "keywords": {
+          "type": "string"
+        },
+        "license": {
+          "type": "string"
+        },
+        "maintainer": {
+          "type": "string"
+        },
+        "maintainer_email": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "package_url": {
+          "type": "string"
+        },
+        "platform": {
+          "type": "string"
+        },
+        "project_url": {
+          "type": "string"
+        },
+        "project_urls": {
+          "type": "object",
+          "properties": {
+            "Download": {
+              "type": "string"
+            },
+            "Homepage": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Download",
+            "Homepage"
+          ]
+        },
+        "release_url": {
+          "type": "string"
+        },
+        "requires_dist": {
+          "type": "null"
+        },
+        "requires_python": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "yanked": {
+          "type": "boolean"
+        },
+        "html_description": {
+          "type": "null"
+        }
+      },
+      "required": [
+        "author",
+        "author_email",
+        "bugtrack_url",
+        "classifiers",
+        "description",
+        "description_content_type",
+        "docs_url",
+        "download_url",
+        "downloads",
+        "home_page",
+        "keywords",
+        "license",
+        "maintainer",
+        "maintainer_email",
+        "name",
+        "package_url",
+        "platform",
+        "project_url",
+        "project_urls",
+        "release_url",
+        "requires_dist",
+        "requires_python",
+        "summary",
+        "version",
+        "yanked",
+        "html_description"
+      ]
+    },
+    "last_serial": {
+      "type": "integer"
+    },
+    "releases": {
+      "type": "object",
+      "properties": {
+        "2.0.1": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "comment_text": {
+                  "type": "string"
+                },
+                "digests": {
+                  "type": "object",
+                  "properties": {
+                    "md5": {
+                      "type": "string"
+                    },
+                    "sha256": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "md5",
+                    "sha256"
+                  ]
+                },
+                "downloads": {
+                  "type": "integer"
+                },
+                "filename": {
+                  "type": "string"
+                },
+                "has_sig": {
+                  "type": "boolean"
+                },
+                "md5_digest": {
+                  "type": "string"
+                },
+                "packagetype": {
+                  "type": "string"
+                },
+                "python_version": {
+                  "type": "string"
+                },
+                "requires_python": {
+                  "type": "null"
+                },
+                "size": {
+                  "type": "integer"
+                },
+                "upload_time": {
+                  "type": "string"
+                },
+                "upload_time_iso_8601": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "yanked": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "comment_text",
+                "digests",
+                "downloads",
+                "filename",
+                "has_sig",
+                "md5_digest",
+                "packagetype",
+                "python_version",
+                "requires_python",
+                "size",
+                "upload_time",
+                "upload_time_iso_8601",
+                "url",
+                "yanked"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "2.0.1"
+      ]
+    },
+    "urls": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "comment_text": {
+              "type": "string"
+            },
+            "digests": {
+              "type": "object",
+              "properties": {
+                "md5": {
+                  "type": "string"
+                },
+                "sha256": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "md5",
+                "sha256"
+              ]
+            },
+            "downloads": {
+              "type": "integer"
+            },
+            "filename": {
+              "type": "string"
+            },
+            "has_sig": {
+              "type": "boolean"
+            },
+            "md5_digest": {
+              "type": "string"
+            },
+            "packagetype": {
+              "type": "string"
+            },
+            "python_version": {
+              "type": "string"
+            },
+            "requires_python": {
+              "type": "null"
+            },
+            "size": {
+              "type": "integer"
+            },
+            "upload_time": {
+              "type": "string"
+            },
+            "upload_time_iso_8601": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string"
+            },
+            "yanked": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "comment_text",
+            "digests",
+            "downloads",
+            "filename",
+            "has_sig",
+            "md5_digest",
+            "packagetype",
+            "python_version",
+            "requires_python",
+            "size",
+            "upload_time",
+            "upload_time_iso_8601",
+            "url",
+            "yanked"
+          ]
+        }
+      ]
+    },
+    "timestamp": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "info",
+    "last_serial",
+    "releases",
+    "urls",
+    "timestamp"
+  ]
+}
