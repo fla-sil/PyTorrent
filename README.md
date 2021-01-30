@@ -1,2 +1,18 @@
 # PyTorrent: A Python Library Corpus for Large-scale Language Models
 A large scale collection of both semantic and natural language resources is essential to leverage active Software Engineering research areas such as code reuse and code comprehensibility. Existing machine learning models ingest data from Open Source repositories (like GitHub projects) and forum discussions (like Stackoverflow.com),  whereas, in this showcase, we took a step backward to orchestrate a corpus titled PyTorrent that contains 218,815 Python package libraries from PyPI and Anaconda environment. This is because earlier studies have shown that much of the code is redundant and Python packages from these environments are better in quality and are well-documented. PyTorrent enables users (such as data scientists, students, etc.) to build off the shelf machine learning models directly without spending months of effort on large infrastructure.
+
+## Package Metadata
+- [All packages](https://github.com/fla-sil/PyTorrent/tree/main/Package_Metadata)
+
+## PyTorrent Transformer-based Model
+- [RoBERTa-MLM model at HuggingFace](https://huggingface.co/Fujitsu/pytorrent)
+
+## PyTorrent Schema
+- [Updated PyPI schema](https://github.com/fla-sil/PyTorrent/blob/main/anaconda_schema.json)
+
+- [Updated Anaconda schema](https://github.com/fla-sil/PyTorrent/blob/main/schema.json) 
+
+
+## PyTorrent Dataset
+- [Zenodo Archive](): TBA
+- Schema of Dataset: TBA
