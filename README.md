@@ -4,7 +4,7 @@ A large scale collection of both semantic and natural language resources is esse
 ## PyTorrent Dataset
 Package dataset contains a set of pairs of <NL,PL> in JSON format. We use CodeSearchNet data format as described [here](https://github.com/github/codesearchnet#data-details). Therefore, the dataset can be easily plugin to CodeSearchNet Deep learning model architecture and other similar architectures such as [CodeBERT](https://github.com/microsoft/CodeBERT) for fine-tuning a code retrieval task.
 - [Zenodo Archive](): TBA
-- Schema of Dataset: TBA
+- Schema of Dataset: TBA 
 
 ## Package Metadata
 - [All packages](https://github.com/fla-sil/PyTorrent/tree/main/Package_Metadata)
