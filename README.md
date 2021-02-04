@@ -7,7 +7,7 @@ Package dataset contains a set of pairs of <NL,PL> in JSON format. We use CodeSe
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4451357.svg)](https://doi.org/10.5281/zenodo.4451357)
 
-- Schema of Dataset: TBA 
+- [Dataset schema](https://github.com/fla-sil/PyTorrent/blob/main/schema.md)
 
 ## Package Metadata
 - [All packages](https://github.com/fla-sil/PyTorrent/tree/main/Package_Metadata)
