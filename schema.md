@@ -32,6 +32,6 @@ We utilize those attributes as follows:
 * **func_name**: the function or method name with path
 * **docstring_tokens**: tokenized version of docstring
 * **docstring**: the entire raw docstring
-* **code_tokens_ast: tokenize code based on AST (it is used for Code Generation tasks)  (<font color="green">new</font>)
-* **code_with_docstrings: capture both codes and its docstrings (<font color="green">new</font>)
-* **summary: a summary of docsctrings (<font color="green">new</font>)
+* **code_tokens_ast**: tokenize code based on AST (it is used for Code Generation tasks)  (<font color="green">new</font>)
+* **code_with_docstrings**: capture both codes and its docstrings (<font color="green">new</font>)
+* **summary**: a summary of docsctrings (<font color="green">new</font>)
