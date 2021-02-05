@@ -18,13 +18,13 @@ Dataset schema explains the structure of dataset and different fields' difinitio
 
 Each package metadata explains the detail of each Python software package that collected from PyPI and Anaconda Package distribution. It includes features such as Software Package License, website, publisher, description and etc.
 
-### PyTorrent Schema
+### PyTorrent Metadata Schema
 - [Updated PyPI schema](https://github.com/fla-sil/PyTorrent/blob/main/anaconda_schema.json)
 
 - [Updated Anaconda schema](https://github.com/fla-sil/PyTorrent/blob/main/schema.json) 
 
 ## PyTorrent Transformer-based Model
-- [RoBERTa-MLM model at HuggingFace](https://huggingface.co/Fujitsu/pytorrent)
+- [RoBERTa-MLM model at HuggingFace](https://huggingface.co/Fujitsu/pytorrent)  <img src="https://huggingface.co/front/assets/huggingface_logo.svg" width="40">
 
 A pretrained model based on 1M Python scripts from Pytoorent. It is a RoBERTa-MLM model and can be fine-tuned on any downstream task on Python programming language.
 
