@@ -15,13 +15,13 @@ Dataset schema explains the structure of dataset and different fields' difinitio
 
 ## Package Metadata
 - [All packages](https://github.com/fla-sil/PyTorrent/tree/main/Package_Metadata)
+- PyTorrent Metadata Schema
+  + [Updated PyPI schema](https://github.com/fla-sil/PyTorrent/blob/main/anaconda_schema.json)
 
-Each package metadata explains the detail of each Python software package that collected from PyPI and Anaconda Package distribution. It includes features such as Software Package License, website, publisher, description and etc.
+  + [Updated Anaconda schema](https://github.com/fla-sil/PyTorrent/blob/main/schema.json) 
 
-### PyTorrent Metadata Schema
-- [Updated PyPI schema](https://github.com/fla-sil/PyTorrent/blob/main/anaconda_schema.json)
 
-- [Updated Anaconda schema](https://github.com/fla-sil/PyTorrent/blob/main/schema.json) 
+Each package metadata includes the detail of Python software package. The packages have been collected from PyPI and Anaconda Package distribution. It includes features such as Software Package License, website, publisher, description and etc. Each packages saves as a JSON file.
 
 ## PyTorrent Transformer-based Model
 - [RoBERTa-MLM model at HuggingFace](https://huggingface.co/Fujitsu/pytorrent)  <img src="https://huggingface.co/front/assets/huggingface_logo.svg" width="40">
