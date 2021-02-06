@@ -26,6 +26,9 @@ Dataset schema explains the structure of dataset and different fields' difinitio
 
 Each package metadata includes the detail of Python software package. The packages have been collected from PyPI and Anaconda Package distribution. It includes features such as Software Package License, website, publisher, description and etc. Each packages saves as a JSON file.
 
+## Mapping Records to Package Metadata
+You may simply map each record of datasets to metadata by using [`repo` and `path` fields](https://github.com/fla-sil/PyTorrent/blob/main/schema.md) to [metadata package name](https://github.com/fla-sil/PyTorrent/tree/main/Package_Metadata).
+
 ## PyTorrent Transformer-based Model
 - [RoBERTa-MLM model at HuggingFace](https://huggingface.co/Fujitsu/pytorrent)  <img src="https://huggingface.co/front/assets/huggingface_logo.svg" width="40">
 
