@@ -1,4 +1,6 @@
 # PyTorrent schema
+We generate three compressed files for three different scenarios of `UserComments`, added `Docstrings` and `both` that includes docstrings and user comments. Each dataset includes the following structure and schema.
+
 
 ## The downloaded data (For example PyTorrent_Both_Docstrings_UserComments.zip) will have the following folder structure:
 ```
