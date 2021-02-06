@@ -32,7 +32,7 @@ You may simply map each record of datasets to metadata by using [`repo`](https:/
 ## PyTorrent Transformer-based Model
 - [RoBERTa-MLM model at HuggingFace](https://huggingface.co/Fujitsu/pytorrent)  <img src="https://huggingface.co/front/assets/huggingface_logo.svg" width="40">
 
-A pretrained model based on 1M Python scripts from Pytoorent. It is a RoBERTa-MLM model and can be fine-tuned on any downstream task on Python programming language.
+A pretrained model based on 1M Python scripts from PyTorrent. It is a RoBERTa-MLM-based model and can be fine-tuned on any downstream task on Python programming language.
 
 
 
