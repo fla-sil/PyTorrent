@@ -1,6 +1,8 @@
 # PyTorrent: A Python Library Corpus for Large-scale Language Models
 A large scale collection of both semantic and natural language resources is essential to leverage active Software Engineering research areas such as code reuse and code comprehensibility. Existing machine learning models ingest data from Open Source repositories (like GitHub projects) and forum discussions (like Stackoverflow.com), whereas, in this showcase, we took a step backward to orchestrate a corpus titled PyTorrent that contains 218,814 Python package libraries from PyPI and Anaconda environment. This is because earlier studies have shown that much of the code is redundant and Python packages from these environments are better in quality and are well-documented. PyTorrent enables users (such as data scientists, students, etc.) to build off the shelf machine learning models directly without spending months of effort on large infrastructure.
 
+The preprint version of the paper is available at: [https://arxiv.org/abs/2110.01710](https://arxiv.org/abs/2110.01710)
+
 ## PyTorrent Dataset
 Package dataset contains a set of pairs of <NL,PL> in JSON format. We introduce PyTorrent for the first time, which is curated data of both metadata and all official Python packages as December 2020. We use CodeSearchNet data format as base schema ([detail](https://github.com/github/codesearchnet#data-details)). Therefore, the dataset can be easily plugin to CodeSearchNet Deep learning model architecture and other similar architectures such as [CodeBERT](https://github.com/microsoft/CodeBERT) for training or fine-tuning a code retrieval task and other language model based tasks.
 
@@ -32,5 +34,20 @@ You may simply map each record of datasets to metadata by using [`repo`](https:/
 ## PyTorrent Transformer-based Model
 - [RoBERTa-MLM model at HuggingFace](https://huggingface.co/Fujitsu/pytorrent)  <img src="https://huggingface.co/front/assets/huggingface_logo.svg" width="40">
 
-A pre-trained model based on 1M Python scripts from PyTorrent. It is a RoBERTa-MLM-based model and can be fine-tuned on any downstream task on Python programming language.
+A pretrained model based on 1M Python scripts from PyTorrent. It is a RoBERTa-MLM-based model and can be fine-tuned on any downstream task on Python programming language.
 
+## Citation
+Mehdi Bahrami, N. C. Shrikanth, Shade Ruangwan, Lei Liu, Yuji Mizobuchi, Masahiro Fukuyori, Wei-Peng Chen, Kazuki Munakata, Tim Menzies, "PyTorrent: A Python Library Corpus for Large-scale Language Models", URL: [https://arxiv.org/abs/2110.01710](https://arxiv.org/abs/2110.01710)
+```
+@misc{bahrami2021pytorrent,
+      title={PyTorrent: A Python Library Corpus for Large-scale Language Models}, 
+      author={Mehdi Bahrami and N. C. Shrikanth and Shade Ruangwan and Lei Liu and Yuji Mizobuchi and Masahiro Fukuyori and Wei-Peng Chen and Kazuki Munakata and Tim Menzies},
+      year={2021},
+      eprint={2110.01710},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      howpublished={https://arxiv.org/abs/2110.01710},
+}
+```
+## Contacting us
+We processed only publicly available records of Python packages. However, if you need any information to be updated/removed from metadata of packages or source-codes, please raise an issue.
