@@ -37,7 +37,7 @@ You may simply map each record of datasets to metadata by using [`repo`](https:/
 A pretrained model based on 1M Python scripts from PyTorrent. It is a RoBERTa-MLM-based model and can be fine-tuned on any downstream task on Python programming language.
 
 ## Citation
-Mehdi Bahrami, N. C. Shrikanth, Shade Ruangwan, Lei Liu, Yuji Mizobuchi, Masahiro Fukuyori, Wei-Peng Chen, Kazuki Munakata, Tim Menzies, "PyTorrent: A Python Library Corpus for Large-scale Language Models", URL: [https://arxiv.org/abs/2110.01710](https://arxiv.org/abs/2110.01710)
+Mehdi Bahrami, N. C. Shrikanth, Shade Ruangwan, Lei Liu, Yuji Mizobuchi, Masahiro Fukuyori, Wei-Peng Chen, Kazuki Munakata, Tim Menzies, "PyTorrent: A Python Library Corpus for Large-scale Language Models", URL: [https://arxiv.org/pdf/2110.01710](https://arxiv.org/pdf/2110.01710)
 ```
 @misc{bahrami2021pytorrent,
       title={PyTorrent: A Python Library Corpus for Large-scale Language Models}, 
