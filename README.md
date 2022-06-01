@@ -56,3 +56,4 @@ We processed only publicly available records of Python packages. However, if you
 PyTorrent has been used by both practitioners and researchers as follows. Feel free to share with us how you utilize PyTorrent in your work.
 - Dai et al. utilized PyTorrent in One Model, Multiple Modalities by creating a dataset which is translating the PyTorrent dataset. The authors translate English docstrings to Chinese by a translation toolkit Transmart. More detail can be found [here](https://arxiv.org/pdf/2205.06126.pdf).
 - Dahal et al. utilized PyTorrent in SCOTCH where the author compare Python dataset against their work. More detail can be found [here](https://openreview.net/pdf?id=rSxfCiOZk-c)
+- Bahrami et al. (the authors of PyTorrent) utilized PyTorrent in AugmentedCode where a large number of augmented code has been produced through PyTorrent to fine-tune and train a SOTA Python code search. More detail can be found [here](https://arxiv.org/pdf/2110.08512.pdf) 
