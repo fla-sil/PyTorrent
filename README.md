@@ -52,6 +52,7 @@ Mehdi Bahrami, N. C. Shrikanth, Shade Ruangwan, Lei Liu, Yuji Mizobuchi, Masahir
 ## Contacting us
 We processed only publicly available records of Python packages. However, if you need any information to be updated/removed from metadata of packages or source-codes, please raise an issue.
 
-## Utilized
+## Utilized PyTorrent
 PyTorrent has been used by both practitioners and researchers as follows. Feel free to share with us how you utilize PyTorrent in your work.
 - Dai et al. utilized PyTorrent in One Model, Multiple Modalities by creating a dataset which is translating the PyTorrent dataset. The authors translate English docstrings to Chinese by a translation toolkit Transmart. More detail can be found [here](https://arxiv.org/pdf/2205.06126.pdf).
+- Dahal et al. utilized PyTorrent in SCOTCH where the author compare Python dataset against their work. More detail can be found [here](https://openreview.net/pdf?id=rSxfCiOZk-c)
