@@ -35,21 +35,6 @@ You may simply map each record of datasets to metadata by using [`repo`](https:/
 
 A pretrained model based on 1M Python scripts from PyTorrent. It is a RoBERTa-MLM-based model and can be fine-tuned on any downstream task on Python programming language.
 
-## Citation
-Mehdi Bahrami, N. C. Shrikanth, Shade Ruangwan, Lei Liu, Yuji Mizobuchi, Masahiro Fukuyori, Wei-Peng Chen, Kazuki Munakata, Tim Menzies, "PyTorrent: A Python Library Corpus for Large-scale Language Models", URL: [https://arxiv.org/pdf/2110.01710](https://arxiv.org/pdf/2110.01710)
-```
-@misc{bahrami2021pytorrent,
-      title={PyTorrent: A Python Library Corpus for Large-scale Language Models}, 
-      author={Mehdi Bahrami and N. C. Shrikanth and Shade Ruangwan and Lei Liu and Yuji Mizobuchi and Masahiro Fukuyori and Wei-Peng Chen and Kazuki Munakata and Tim Menzies},
-      year={2021},
-      eprint={2110.01710},
-      archivePrefix={arXiv},
-      primaryClass={cs.SE},
-      howpublished={https://arxiv.org/abs/2110.01710},
-}
-```
-
-
 ## More detail?
 <a href="https://automlpodcast.com/episode/bert-sort-how-to-use-language-models-to-semantically-order-categorical-values"><img src="https://images.podcastpage.io/fetch/https%3A%2F%2Fstorage.buzzsprout.com%2Fvariants%2Flmm4qmbs2knbyqxpauluugywm8il%2F5cfec01b44f3e29fae1fb88ade93fc4aecd05b192fbfbc2c2f1daa412b7c1921.jpg?w=365&dpr=2.0" width="90"></img></a>
 
@@ -64,3 +49,17 @@ PyTorrent has been used by both practitioners and researchers as follows. Feel f
 - Dahal et al. utilized PyTorrent in SCOTCH where the author compare Python dataset against their work. More detail can be found [here](https://openreview.net/pdf?id=rSxfCiOZk-c)
 - Bahrami et al. (the authors of PyTorrent) utilized PyTorrent in AugmentedCode where a large number of augmented code has been produced through PyTorrent to fine-tune and train a SOTA Python code search. More detail can be found [here](https://arxiv.org/pdf/2110.08512.pdf)
 - Yang et al. use PyTorrent to evaluate their proposed approach of neuRAl coDe generAtor Robustifier (RADAR). More detail can be found [here](https://arxiv.org/pdf/2211.15844.pdf)
+
+## Citation
+Mehdi Bahrami, N. C. Shrikanth, Shade Ruangwan, Lei Liu, Yuji Mizobuchi, Masahiro Fukuyori, Wei-Peng Chen, Kazuki Munakata, Tim Menzies, "PyTorrent: A Python Library Corpus for Large-scale Language Models", URL: [https://arxiv.org/pdf/2110.01710](https://arxiv.org/pdf/2110.01710)
+```
+@misc{bahrami2021pytorrent,
+      title={PyTorrent: A Python Library Corpus for Large-scale Language Models}, 
+      author={Mehdi Bahrami and N. C. Shrikanth and Shade Ruangwan and Lei Liu and Yuji Mizobuchi and Masahiro Fukuyori and Wei-Peng Chen and Kazuki Munakata and Tim Menzies},
+      year={2021},
+      eprint={2110.01710},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      howpublished={https://arxiv.org/abs/2110.01710},
+}
+```
