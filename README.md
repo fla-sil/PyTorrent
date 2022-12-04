@@ -48,6 +48,13 @@ Mehdi Bahrami, N. C. Shrikanth, Shade Ruangwan, Lei Liu, Yuji Mizobuchi, Masahir
       howpublished={https://arxiv.org/abs/2110.01710},
 }
 ```
+
+
+## More detail?
+<a href="https://automlpodcast.com/episode/bert-sort-how-to-use-language-models-to-semantically-order-categorical-values"><img src="https://images.podcastpage.io/fetch/https%3A%2F%2Fstorage.buzzsprout.com%2Fvariants%2Flmm4qmbs2knbyqxpauluugywm8il%2F5cfec01b44f3e29fae1fb88ade93fc4aecd05b192fbfbc2c2f1daa412b7c1921.jpg?w=365&dpr=2.0" width="90"></img></a>
+
+Checkout the second section of [BERT-Sort podcast episode](https://automlpodcast.com/episode/bert-sort-how-to-use-language-models-to-semantically-order-categorical-values) at the AutoML Podcast where Mehdi discusses objective of PyTorrent. 
+
 ## Contacting us
 We processed only publicly available records of Python packages. However, if you need any information to be updated/removed from metadata of packages or source-codes, please raise an issue.
 
@@ -55,4 +62,4 @@ We processed only publicly available records of Python packages. However, if you
 PyTorrent has been used by both practitioners and researchers as follows. Feel free to share with us how you utilize PyTorrent in your work.
 - Dai et al. utilized PyTorrent in One Model, Multiple Modalities by creating a dataset which is translating the PyTorrent dataset. The authors translate English docstrings to Chinese by a translation toolkit Transmart. More detail can be found [here](https://arxiv.org/pdf/2205.06126.pdf).
 - Dahal et al. utilized PyTorrent in SCOTCH where the author compare Python dataset against their work. More detail can be found [here](https://openreview.net/pdf?id=rSxfCiOZk-c)
-- Bahrami et al. (the authors of PyTorrent) utilized PyTorrent in AugmentedCode where a large number of augmented code has been produced through PyTorrent to fine-tune and train a SOTA Python code search. More detail can be found [here](https://arxiv.org/pdf/2110.08512.pdf) 
+- Bahrami et al. (the authors of PyTorrent) utilized PyTorrent in AugmentedCode where a large number of augmented code has been produced through PyTorrent to fine-tune and train a SOTA Python code search. More detail can be found [here](https://arxiv.org/pdf/2110.08512.pdf)
