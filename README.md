@@ -48,7 +48,8 @@ PyTorrent has been used by both practitioners and researchers as follows. Feel f
 - Dai et al. utilized PyTorrent in One Model, Multiple Modalities by creating a dataset which is translating the PyTorrent dataset. The authors translate English docstrings to Chinese by a translation toolkit Transmart. More detail can be found [here](https://arxiv.org/pdf/2205.06126.pdf).
 - Dahal et al. utilized PyTorrent in SCOTCH where the author compare Python dataset against their work. More detail can be found [here](https://openreview.net/pdf?id=rSxfCiOZk-c)
 - Bahrami et al. (the authors of PyTorrent) utilized PyTorrent in AugmentedCode where a large number of augmented code has been produced through PyTorrent to fine-tune and train a SOTA Python code search. More detail can be found [here](https://arxiv.org/pdf/2110.08512.pdf)
-- Yang et al. use PyTorrent to evaluate their proposed approach of neuRAl coDe generAtor Robustifier (RADAR). More detail can be found [here](https://arxiv.org/pdf/2211.15844.pdf)
+- Yang et al. used PyTorrent to evaluate their proposed approach of neuRAl coDe generAtor Robustifier (RADAR). More detail can be found [here](https://arxiv.org/pdf/2211.15844.pdf)
+- Gong et al. utilized PyTorrent to train and evaluate MulciCoder whihc is a Multi-Programming-Lingual Pre-Training for Low-Resource Code Completion. More detail can be found [here](https://arxiv.org/pdf/2110.08512.pdf)
 
 ## Citation
 Mehdi Bahrami, N. C. Shrikanth, Shade Ruangwan, Lei Liu, Yuji Mizobuchi, Masahiro Fukuyori, Wei-Peng Chen, Kazuki Munakata, Tim Menzies, "PyTorrent: A Python Library Corpus for Large-scale Language Models", URL: [https://arxiv.org/pdf/2110.01710](https://arxiv.org/pdf/2110.01710)
