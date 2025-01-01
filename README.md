@@ -2,9 +2,9 @@
 A large scale collection of both semantic and natural language resources is essential to leverage active Software Engineering research areas such as code reuse and code comprehensibility. Existing machine learning models ingest data from Open Source repositories (like GitHub projects) and forum discussions (like Stackoverflow.com), whereas, in this showcase, we took a step backward to orchestrate a corpus titled PyTorrent that contains 218,814 Python package libraries from PyPI and Anaconda environment. This is because earlier studies have shown that much of the code is redundant and Python packages from these environments are better in quality and are well-documented. PyTorrent enables users (such as data scientists, students, etc.) to build off the shelf machine learning models directly without spending months of effort on large infrastructure.
 
 The preprint version of the paper is available at: [https://arxiv.org/pdf/2110.01710](https://arxiv.org/pdf/2110.01710)
+
 <audio controls>
-    <source src="paper/PyTorrent_ A Python Library Corpus for Large-Scale Language Models.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
+    <source src="https://github.com/fla-sil/PyTorrent/paper/PyTorrent_ A Python Library Corpus for Large-Scale Language Models.mp3??raw=true" type="audio/mpeg">
 </audio>
 
 ## PyTorrent Dataset
