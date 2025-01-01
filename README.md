@@ -3,9 +3,12 @@ A large scale collection of both semantic and natural language resources is esse
 
 The preprint version of the paper is available at: [https://arxiv.org/pdf/2110.01710](https://arxiv.org/pdf/2110.01710)
 
-<audio controls>
-    <source src="https://github.com/fla-sil/PyTorrent/paper/PyTorrent_ A Python Library Corpus for Large-Scale Language Models.mp3??raw=true" type="audio/mpeg">
-</audio>
+
+<script>
+    var audio = new Audio('https://github.com/fla-sil/PyTorrent/blob/main/paper/PyTorrent_ A Python Library Corpus for Large-Scale Language Models.mp3?raw=true');
+    audio.play();
+</script>
+
 
 ## PyTorrent Dataset
 Package dataset contains a set of pairs of <NL,PL> in JSON format. We introduce PyTorrent for the first time, which is curated data of both metadata and all official Python packages as December 2020. We use CodeSearchNet data format as base schema ([detail](https://github.com/github/codesearchnet#data-details)). Therefore, the dataset can be easily plugin to CodeSearchNet Deep learning model architecture and other similar architectures such as [CodeBERT](https://github.com/microsoft/CodeBERT) for training or fine-tuning a code retrieval task and other language model based tasks.
